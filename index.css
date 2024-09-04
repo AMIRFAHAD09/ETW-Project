@@ -1,0 +1,93 @@
+body
+    {
+    background: rgb(155,247,244);
+    background: linear-gradient(90deg, rgba(155,247,244,1) 0%, rgba(38,67,197,1) 80%, rgba(8,22,183,1) 100%);
+    }
+    .welcome_img{
+    width: 53px;
+    height: 53px;
+    margin-bottom: 10px;
+    }
+    #welcome, .t{
+    font-family: "Rubik", sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 20px;}
+    #T{font-size: 60px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: rgb(74, 74, 239);
+    }
+
+    .charging_txt{
+        color: #ffffff;
+        font-family: "Rubik", sans-serif;
+    }
+    .main_logo{
+        width: 100px;
+        height: 100px;
+    }
+    .main_logo, span{
+        font-family: "Poppins", sans-serif;
+    }
+    .visit_btn{
+        width: 40%;
+        margin-top: 70px;
+        box-shadow: 1px 1px 3px 3px #464545;
+        border-radius: 50px;
+        margin-bottom: 5px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    /* Right side design */
+    .first_rightbox
+    {
+        border-top: 1px solid rgb(230, 235, 230);
+        width: 220px;
+        height: 470px;
+        margin: 0 auto;
+        background: rgb(155,247,244);
+        background: linear-gradient(270deg, rgba(155,247,244,1) 0%, rgba(38,67,197,1) 80%, rgba(8,22,183,1) 100%);
+        border-radius: 20px;
+        box-shadow: 1px 1px 3px 3px #464545;
+    }
+
+    .first_rightbox_img{
+        width: 170px;
+        height: 170px;
+        border-radius: 10px;
+        
+        
+    }
+    ul{
+        margin-top: 110px;
+    }
+
+    /* RESPONSIVE first page*/
+
+    @media(min-width:320px) and (max-width:600px)
+    {
+        #welcome, #T, .t{font-size: 45px;}
+        
+        .welcome_img {
+         width: 42px;
+        height: 42px;
+        margin-bottom: 9px;}
+
+        .visit_btn{margin-top: 300px;}
+        .first_rightbox{
+            width: 180px;
+            height: 420px;
+        }
+        .first_rightbox_img{
+        width: 140px;
+        height: 140px;
+        }
+        ul{
+            margin-top: 160px;
+        }
+        .first_rightbox li, p{
+            font-size: 12px;
+            font-family: "Poppins", sans-serif;
+        }
+    }

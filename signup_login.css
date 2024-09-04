@@ -1,0 +1,120 @@
+/* Navbar */
+nav,.dropdown-menu {
+    background: rgb(155, 247, 244);
+    background: linear-gradient(90deg, rgba(155, 247, 244, 1) 0%, rgba(38, 67, 197, 1) 80%, rgba(8, 22, 183, 1) 100%);
+}
+
+.dropdown-item:hover {
+    background-color: rgb(42, 44, 165);
+}
+
+.bar {
+    color: rgb(3, 149, 194);
+    box-shadow: 0px 3px 3px 0px rgb(3, 149, 194);
+}
+#signup_open_btn:hover, #login_open_btn:hover{
+    background: rgb(100, 200, 200);
+    background: linear-gradient(90deg, rgba(100, 173, 144, 1) 0%, rgba(38, 67, 197, 1) 80%, rgba(8, 22, 1543, 1) 100%);
+}
+/*For sign up  */
+.main_signup_box,
+.main_login_box {
+    margin-top: 180px;
+}
+
+.image-container {
+    background: rgb(155, 247, 244);
+    background: linear-gradient(90deg, rgba(155, 247, 244, 1) 0%, rgba(38, 67, 197, 1) 80%, rgba(8, 22, 183, 1) 100%);
+}
+
+.image-container img {
+    position: absolute;
+    height: 180px;
+    width: 80%;
+    bottom: 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#signup_img{
+    width: 100px;
+    height: 100px;
+}
+#signup_link,#forget_link,#login_link {
+    color: blue;
+    cursor: pointer;
+}
+
+.sign_text {
+    margin-top: 60px;
+}
+
+.signup-container .center,.login-container .center {
+    margin-bottom: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    background: rgb(155, 247, 244);
+    background: linear-gradient(90deg, rgba(155, 247, 244, 1) 0%, rgba(38, 67, 197, 1) 80%, rgba(8, 22, 183, 1) 100%);
+    font-family: "Poppins", sans-serif;
+}
+
+#signbox,#loginbox
+{
+    display: none;
+}
+.loginbg,.signupbg {
+    background-color: #e6e6e6;
+    }
+
+    /* form */
+    .form-control {
+        background-color: white;
+    }
+
+    .form-control::placeholder {
+        color: #ccc;
+    }
+
+    #menu ul li a {
+        color: white;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    #menu ul li a:hover {
+        background-color: blue;
+        border-radius: 10px;
+    }
+
+    /* responsive design */
+    @media(min-width: 767px) and (max-width:891px) {
+        #menu ul li a {
+            font-size: 18px;
+        }
+
+        .logoimg {
+            width: 60px;
+            height: 60px;
+        }
+
+        #search_btn {
+            width: 90px;
+        }
+    }
+
+    @media(max-width: 600px) {
+        #register-link p {
+            font-size: 10px;
+        }
+    }
+
+    @media(min-width: 767px) and (max-width:991px) {
+        #register-link p {
+            font-size: 10px;
+        }
+    }
