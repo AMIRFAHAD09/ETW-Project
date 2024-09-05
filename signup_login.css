@@ -1,7 +1,4 @@
 /* Navbar */
-body{
-    overflow-x: hidden;
-}
 nav,.dropdown-menu {
     background: rgb(155, 247, 244);
     background: linear-gradient(90deg, rgba(155, 247, 244, 1) 0%, rgba(38, 67, 197, 1) 80%, rgba(8, 22, 183, 1) 100%);
@@ -44,16 +41,10 @@ nav,.dropdown-menu {
     color: blue;
     cursor: pointer;
 }
-
 .sign_text {
     margin-top: 60px;
 }
 
-.signup-container, .login-container {
-    width: 100%;
-    max-width: 500px; /* Set a fixed max width for consistency */
-    margin: 0 auto;
-}
 .main_signup_box, .main_login_box {
     max-width: 800px; /* Same max width for both forms */
     margin: 0 auto;
