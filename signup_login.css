@@ -1,4 +1,7 @@
 /* Navbar */
+body{
+    overflow-x: hidden;
+}
 nav,.dropdown-menu {
     background: rgb(155, 247, 244);
     background: linear-gradient(90deg, rgba(155, 247, 244, 1) 0%, rgba(38, 67, 197, 1) 80%, rgba(8, 22, 183, 1) 100%);
@@ -17,10 +20,7 @@ nav,.dropdown-menu {
     background: linear-gradient(90deg, rgba(100, 173, 144, 1) 0%, rgba(38, 67, 197, 1) 80%, rgba(8, 22, 1543, 1) 100%);
 }
 /*For sign up  */
-.main_signup_box,
-.main_login_box {
-    margin-top: 180px;
-}
+
 
 .image-container {
     background: rgb(155, 247, 244);
@@ -49,6 +49,17 @@ nav,.dropdown-menu {
     margin-top: 60px;
 }
 
+.signup-container, .login-container {
+    width: 100%;
+    max-width: 500px; /* Set a fixed max width for consistency */
+    margin: 0 auto;
+}
+.main_signup_box, .main_login_box {
+    max-width: 800px; /* Same max width for both forms */
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 180px;
+}
 .signup-container .center,.login-container .center {
     display: flex;
     justify-content: center;
@@ -119,9 +130,9 @@ nav,.dropdown-menu {
         #register-link p {
             font-size: 10px;
         }
-        .image-container img{
+        /* .image-container img{
             margin-left: 0;
             height: 150px;
             width: 80%;
-        }
+        } */
     }
